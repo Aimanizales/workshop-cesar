@@ -1,22 +1,28 @@
 # workshop-cesar
-Zero to prod
+Notas de clase: Creando una app. zero to prod
 
+### 1. Next
+https://nextjs.org/ (Entender Next, como Nuxt)
 
-## Notas de clase:
-
-### Analizando un package-lock.json
+Analizando un package-lock.json
 .tgz (Un tipo de zip de Linux)
 
-### Creando una app:
+### 2. Heroku:
+puerto web: 80
 
 #### Qué es Heroku:
 - Es una plataforma para subir web apps
 - Nos da un espacio peque para correr node
--
 
-puerto web: 80
-
-
-Heroku es la mejor para subir...
+### Configurando Heroku: 
 1. Escoger EUA por conectividad.
 2. Deploy: 
+
+
+### 3. Material-UI
+
+Para instalar toca hacer esto primero:
+https://nextjs.org/docs#custom-document
+
+Luego, ahí sí, esto:
+https://material-ui.com/getting-started/installation/
