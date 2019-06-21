@@ -26,3 +26,5 @@ https://nextjs.org/docs#custom-document
 
 Luego, ahí sí, esto:
 https://material-ui.com/getting-started/installation/
+
+Para arreglar el tema de que se carga primero la UI y luego el CSS porque el CSS es JS:
