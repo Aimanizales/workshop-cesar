@@ -42,3 +42,7 @@ Todo JS que se meta en `/server/` debe estar en commonJS, no ES6.
 
 En este punto, se corre con `node server`
 
+## 5. GraphQL
+- Metodología para consulta de datos.
+- Creado por Facebook para solucionar problemas de REST.
+- Leer sobre teoría de grafos.
