@@ -1,5 +1,9 @@
 # workshop-cesar
 Notas de clase: Creando una app. zero to prod
+https://slides.com/cesarguerrero/next-js-workshop/#/
+
+https://github.com/Aimanizales/workshop-cesar
+https://workshop-cesar.herokuapp.com/
 
 ### 1. Next
 https://nextjs.org/ (Entender Next, como Nuxt)
@@ -23,6 +27,7 @@ puerto web: 80
 
 Para instalar toca hacer esto primero:
 https://nextjs.org/docs#custom-document
+https://github.com/mui-org/material-ui/blob/master/examples/nextjs/pages/_document.js
 
 Luego, ahí sí, esto:
 https://material-ui.com/getting-started/installation/
