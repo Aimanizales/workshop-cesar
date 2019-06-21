@@ -1,0 +1,35 @@
+{
+  "name": "workshop-cesar",
+  "version": "1.0.0",
+  "description": "Zero to prod",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimanizales/workshop-cesar.git"
+  },
+  "author": "Aiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aimanizales/workshop-cesar/issues"
+  },
+  "homepage": "https://github.com/Aimanizales/workshop-cesar#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}
