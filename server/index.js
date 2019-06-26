@@ -1,9 +1,9 @@
 const express = require('express');
 const next = require('next');
 const graphqlHTTP = require('express-graphql');
+const config = require('../appConfig');
 const schema = require('./schema');
 
-const PORT = process.env.PORT || 3000;
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
@@ -17,8 +17,8 @@ app.prepare()
     }));
     server.get('/test', (req, res) => res.send('test')); // el orden es muy importante.
     server.get('*', (req, res) => handle(req, res));
-    server.listen(PORT, () => {
-      console.log(`> Mono's App listening in ${PORT}`);
+    server.listen(config.PORT, () => {
+      console.log(`> Mono's App listening in ${config.HOST}:${config.PORT}`);
     });
   })
   .catch((ex) => {

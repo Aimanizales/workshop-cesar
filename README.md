@@ -46,3 +46,26 @@ En este punto, se corre con `node server`
 - Metodología para consulta de datos.
 - Creado por Facebook para solucionar problemas de REST.
 - Leer sobre teoría de grafos.
+
+
+## 6. PM2
+Poner PM2 a correr:
+
+`npm install pm2`
+
+```
+npx pm2 start 
+```
+
+npx porque se le está diciendo a Node que corra un binario en 
+
+
+## 7. Apollo
+- https://www.apollographql.com/docs/react/essentials/get-started/
+- De la misma gente que trabaja en GraphQL.
+- Capa de integración con React
+
+`npm install apollo-boost react-apollo graphql`
+
+### 7.1 Solucionando problemas de fetch entre server y client:
+`npm install isomorphic-fetch es6-promise`

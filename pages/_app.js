@@ -1,9 +1,12 @@
 import React from 'react';
 import App, { Container } from 'next/app';
+import { polyfill } from 'es6-promise';
 import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../styles/theme';
+
+polyfill();
 
 class MyApp extends App {
   componentDidMount() {
